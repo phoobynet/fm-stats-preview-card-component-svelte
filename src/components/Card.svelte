@@ -71,6 +71,8 @@
     opacity: .75;
     mix-blend-mode: multiply;
     content: url("@/assets/images/image-header-mobile.jpg");
+    width: 327px;
+    height: 240px;
   }
 
   .card__stats {
@@ -125,6 +127,8 @@
 
     .card__heading img {
       content: url("@/assets/images/image-header-desktop.jpg");
+      width: 540px;
+      height: 446px;
     }
 
     .card__content p {
