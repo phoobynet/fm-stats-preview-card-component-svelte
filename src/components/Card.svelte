@@ -116,7 +116,7 @@
     .card__content {
       grid-column-start: 1;
       grid-row-start: 1;
-      margin: 4rem 4rem 0 4rem;
+      margin: 4.5rem 4.5rem 0;
     }
 
     .card__content h1 {
