@@ -9,7 +9,7 @@
 <style>
   .app {
     height: 100vh;
-    margin: 10rem 0 10rem 0;
+    margin: 9rem 0 10rem 0;
   }
 
   @media (min-width: 1440px) {

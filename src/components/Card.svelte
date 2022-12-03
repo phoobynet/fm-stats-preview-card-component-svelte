@@ -60,7 +60,7 @@
     line-height: 25px;
     letter-spacing: 0;
     opacity: .75;
-    margin: 1.5rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
 
   .card__heading {
@@ -71,8 +71,8 @@
     opacity: .75;
     mix-blend-mode: multiply;
     content: url("@/assets/images/image-header-mobile.jpg");
-    width: 327px;
-    height: 240px;
+    width: 20.438rem;
+    height: 15rem;
   }
 
   .card__stats {
@@ -81,7 +81,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 1rem;
+    row-gap: 1.3rem;
+    margin-top: 2.4rem;
   }
 
   .card__stats li {
@@ -89,7 +90,7 @@
   }
 
   .card__stats li > div:first-child {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0;
   }
@@ -97,10 +98,10 @@
   .card__stats li > div:last-child {
     font-family: 'Lexend Deca';
     opacity: 0.60;
-    font-size: 12px;
-    line-height: 25px;
+    font-size: .75rem;
+    line-height: 1.4rem;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.063rem;
     text-transform: uppercase;
   }
 
@@ -127,18 +128,20 @@
 
     .card__heading img {
       content: url("@/assets/images/image-header-desktop.jpg");
-      width: 540px;
-      height: 446px;
+      width: 33.75rem;
+      height: 27.875rem;
     }
 
     .card__content p {
       text-align: left;
       margin: 1.5rem 0 0 0;
+      max-width: 22rem;
     }
 
     .card__stats {
       flex-direction: row;
-      column-gap: 1rem;
+      column-gap: 3.9rem;
+      margin-top: 4.4rem;
     }
 
     .card__stats li {
