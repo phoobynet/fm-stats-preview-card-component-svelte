@@ -1,47 +1,52 @@
-# Svelte + TS + Vite
+# Frontend Mentor - Stats preview card component solution
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+## Table of contents
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-## Need an official Svelte framework?
+## Overview
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+### The challenge
 
-## Technical considerations
+Users should be able to:
 
-**Why use this over SvelteKit?**
+- View the optimal layout depending on their device's screen size
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+### Links
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+- Solution URL: https://github.com/phoobynet/fm-stats-preview-card-component-svelte
+- Live Site URL: https://fm-stats-preview-card-component-svelte-phooby.vercel.app/
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## My process
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+### Built with
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+- Svelte
+- Vite
+- Pure CSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-**Why include `.vscode/extensions.json`?**
+### What I learned
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+I has been using Tailwind for these projects, but quickly realised that I was learning Tailwind, rather than learning CSS.  I thought it would be harder without it, but it actually didn't feel that way.
 
-**Why enable `allowJs` in the TS template?**
+I am very fond of Vue and I don't mind React, but Svelte is just lovely to work with. 
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+### Continued development
 
-**Why is HMR not preserving my local component state?**
+Having relied heavily on frameworks (component and/or utility) for most of work I did, going back to pure CSS was much easier than I thought it would be. However, I really need to get better at structuring CSS.  I'm looking at Cube.css as a mental model for working with it efficiently.
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+## Author
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+- Frontend Mentor - [@phoobynet](https://www.frontendmentor.io/profile/phoobynet)
